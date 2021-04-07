@@ -1,0 +1,321 @@
+default_min_items: 1
+default_max_items: 4
+rewards:
+  green:
+    min_items: 2
+    max_items: 5
+    money:
+      min: 100
+      max: 1000
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_INFINITE: 1
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: ARROW
+        amount: 64
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: IRON_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 2
+  blue:
+    min_items: 2
+    max_items: 5
+    money:
+      min: 500
+      max: 2500
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            SWEEPING_EDGE: 3
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            SILK_TOUCH: 1
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            SILK_TOUCH: 1
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LUCK: 3
+            LURE: 3
+            DURABILITY: 3
+  red:
+    min_items: 3
+    max_items: 5
+    money:
+      min: 1500
+      max: 5000
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: FISHING_ROD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LUCK: 3
+            LURE: 3
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            SILK_TOUCH: 1
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            SILK_TOUCH: 1
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_SHOVEL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 4
+            PROTECTION_ENVIRONMENTAL: 4
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 5
+  black:
+    min_items: 3
+    max_items: 5
+    money:
+      min: 2500
+      max: 10000
+    items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 5
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_HELMET
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_CHESTPLATE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_LEGGINGS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_BOOTS
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            PROTECTION_FALL: 4
+            PROTECTION_ENVIRONMENTAL: 4
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_FIRE: 1
+            ARROW_INFINITE: 1
+            ARROW_DAMAGE: 5
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_PICKAXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: NETHERITE_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            LOOT_BONUS_BLOCKS: 3
+            DURABILITY: 3
+      - ==: org.bukkit.inventory.ItemStack
+        v: 2586
+        type: GOLDEN_APPLE
+        amount: 16
+conf_version: 1.0

@@ -1,0 +1,21 @@
+name: BobRewards
+version: ${project.version}
+main: com.survivorbob.bobrewards.BobRewards
+api-version: 1.16
+prefix: BobRewards
+authors: [ KingDonkeyBong ]
+description: Rewards system that uses boxes which are unlocked with keys to distribute configured rewards.
+website: https://www.SurvivorBob.com/
+commands:
+  givebox:
+    description: "Give a rewards box to yourself to place into the world."
+    usage: "/givebox <green|blue|red|black>"
+    permission: bob.rewards.give.box
+  givekey:
+    description: "Give a reward key to yourself or another player."
+    usage: "/givekey <green|blue|red|black> [<player>]"
+    permission: bob.rewards.give.key
+  setrewards:
+    description: "Set the rewards from your current inventory"
+    usage: "/setrewards <green|blue|red|black>"
+    permission: bob.rewards.set
