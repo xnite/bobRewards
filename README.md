@@ -9,6 +9,7 @@ It is very simple to setup and use, and configuring the rewards that will be pos
 - `/setrewards <green|blue|red|black>`: Opens up the rewards pool inventory so that you can set the items for the given box. Requires permission: `bob.rewards.set`.
 
 # Servers Using this Plugin
-If your server uses this plugin feel free to add your shameless plug here, nothing fancy, just the name & hostname. To avoid conflict, please keep this list in alphabetical order!
+If your server uses this plugin feel free to add your shameless plug here, nothing fancy, just the name & hostname. To avoid conflict, please only append to this list!
+If you notice a server in this list which is no longer online then please create an issue or update an existing issue to confirm the length of downtime or that the server is no longer available.
 
 * Survivor Bob - `play.SurvivorBob.com`
